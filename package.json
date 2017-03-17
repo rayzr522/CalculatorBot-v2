@@ -1,0 +1,30 @@
+{
+  "name": "calculator-bot-v2",
+  "version": "1.0.0",
+  "description": "A little intelligent calculator-bot for Discord",
+  "main": "src/index.js",
+  "repository": "https://github.com/Rayzr522/CalculatorBot-v2",
+  "author": "Rayzr",
+  "license": "MIT",
+  "scripts": {
+    "lint": "xo src/**/*.js",
+    "dev:start": "nodemon src/ --exec 'yarn start'",
+    "start": "yarn lint && node src"
+  },
+  "dependencies": {
+    "discord.js": "^11.0.0",
+    "dotenv": "^4.0.0",
+    "math-expression-evaluator": "^1.2.16",
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "space": 4,
+    "semicolon": false,
+    "rules": {
+      "eol-last": 0
+    }
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

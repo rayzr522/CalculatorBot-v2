@@ -1,0 +1,2 @@
+# CalculatorBot v2
+A 35 line Discord.js bot that can calculate stuff. It's pretty much just a Discord bot wrapper for the [`math-expression-evaluator`](https://www.npmjs.com/package/math-expression-evaluator) Node module.
